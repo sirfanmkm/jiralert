@@ -127,7 +127,7 @@ func main() {
 				// Instruct Alertmanager to retry.
 				status = http.StatusServiceUnavailable
 			} else {
-				status = http.StatusInternalServerError
+				status = http.StatusBadRequest
 			}
 			errorHandler(w, status, err, conf.Name, &data, logger)
 			return
