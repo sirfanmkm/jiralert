@@ -31,4 +31,4 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 )
 
-replace github.com/prometheus-community/jiralert => github.com/sirfanmkm/jiralert latest
+replace github.com/prometheus-community/jiralert => github.com/sirfanmkm/jiralert master
